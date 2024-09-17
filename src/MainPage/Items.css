@@ -1,0 +1,36 @@
+.container
+{
+    width: 350px;
+    height: 400px;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.red
+{
+    color: red !important;
+}
+#likeButton
+{
+    position: absolute;
+    right: 15px;
+}
+
+.description
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add
+{
+    width: 95px;
+    height: 40px;
+    border: 2px solid red;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 700;
+     cursor: pointer;
+}
